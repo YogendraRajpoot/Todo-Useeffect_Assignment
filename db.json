@@ -16,16 +16,6 @@
       "id": 3
     },
     {
-      "Title": "",
-      "status": false,
-      "id": 4
-    },
-    {
-      "Title": "",
-      "status": false,
-      "id": 5
-    },
-    {
       "Title": "Buy Milk",
       "status": false,
       "id": 6
@@ -39,16 +29,6 @@
       "Title": "Tropicana Juice",
       "status": false,
       "id": 8
-    },
-    {
-      "Title": "",
-      "status": false,
-      "id": 9
-    },
-    {
-      "Title": "",
-      "status": false,
-      "id": 10
     }
   ],
   "comments": [
