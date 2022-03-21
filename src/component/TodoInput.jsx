@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import { v4 as uuid } from "uuid";
 
 export const TodoInput = ({ data, setData,page}) => {
   const [task, setTask] = useState("");
@@ -18,7 +17,6 @@ export const TodoInput = ({ data, setData,page}) => {
     const onload = {
       Title: task,
       status: false,
-      // id: uuid(),
     };
 
     fetch("http://localhost:3001/Todo", {
@@ -40,8 +38,12 @@ export const TodoInput = ({ data, setData,page}) => {
       />
       <button
         onClick={() => {
+          if( task!==""){
             handleadd(task);          
             setTask("");
+          }else{ 
+            alert("Enter Todo's")
+          }
         }}
       >
         Add
