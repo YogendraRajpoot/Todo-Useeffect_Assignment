@@ -11,13 +11,7 @@ export const TodoList = ({ data, setPage, page }) => {
       <button onClick={() => setPage(page - 1)} disabled={page === 1}>
         Prev
       </button>
-      <button
-        onClick={() => {
-          setPage(page + 1);
-        }}
-        disabled={data.length < 3}
-        
-      >
+      <button onClick={() => setPage(page + 1)} disabled={data.length < 4}>
         Next
       </button>
     </div>
